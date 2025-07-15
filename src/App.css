@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  color: white;
+}
+
+
+
+
+/* :root {
+  --color-bg: #0f172a;     
+  --color-surface: #1e293b;     
+  --color-accent: #6366f1;       
+  --color-text: #f1f5f9;         
+  --color-subtext: #94a3b8;      
+  --color-border: #334155;       
+  --color-danger: #ef4444;      
+  --font-family: 'Inter', sans-serif;
+} */
+

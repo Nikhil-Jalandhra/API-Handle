@@ -1,0 +1,502 @@
+[
+  {
+    "categories": ["family", "desi"],
+    "id": 1,
+    "content": "Mummy ne fridge kyun band kiya? — Kyunki fridge bolta tha 'I'm cool', to mummy ne bola, cool rehne de!"
+  },
+  {
+    "categories": ["school", "funny"],
+    "id": 2,
+    "content": "Teacher: English mein bolo, 'I am late.' Student: 'I am late hai boss!'"
+  },
+  {
+    "categories": ["office", "boss"],
+    "id": 3,
+    "content": "Boss: Friday ko late mat aana! Employee: Friday subah socha tha, late entry pe no attendance milegi!"
+  },
+  {
+    "categories": ["desi"],
+    "id": 4,
+    "content": "Pappu: Shaadi me ghode pe baitne ka scene tha? Gora: Nahi yaar, sirf photo stall sahi hua tha!"
+  },
+  {
+    "categories": ["family"],
+    "id": 5,
+    "content": "Dadi: Tum ladkiyon ko beta bahut aaram se ho jata hai. Beta: Dadi, WhatsApp check karne me hi toh practice ho jati hai!"
+  },
+  {
+    "categories": ["office", "colleagues"],
+    "id": 6,
+    "content": "Colleague: Break time pe kaam karne ka time hota hai? Dusra: Haan, WhatsApp groups saaf karne ke liye!"
+  },
+  {
+    "categories": ["school", "students"],
+    "id": 7,
+    "content": "Principal: Attendance 100% honi chahiye! Student: Sir, memes forward karne me 100% active hu!"
+  },
+  {
+    "categories": ["family", "technology"],
+    "id": 8,
+    "content": "Papa TV ka remote dhoond rahe the, mummy boli: Fridge ka remote se call kar lo!"
+  },
+  {
+    "categories": ["desi", "food"],
+    "id": 9,
+    "content": "Pyaaz ka halwa banana tha, ghar me sab ro diye!"
+  },
+  {
+    "categories": ["family", "kids"],
+    "id": 10,
+    "content": "Bachha: God, meri life simple rakhna. God: Thik hai, calculator khol le!"
+  },
+  {
+    "categories": ["school", "exam"],
+    "id": 11,
+    "content": "Exam me likha: 'Answer in brief'. Maine likha: 'Yes'."
+  },
+  {
+    "categories": ["friends"],
+    "id": 12,
+    "content": "Friend: Tera breakup kyun hua? Dusra: Usne bola 'Tum funny ho' — par uska matlab serious nahi tha!"
+  },
+  {
+    "categories": ["office"],
+    "id": 13,
+    "content": "Boss: Tum har baar late kyun aate ho? Employee: Kyunki time pe aane ka pressure hota hai!"
+  },
+  {
+    "categories": ["technology", "family"],
+    "id": 14,
+    "content": "Mummy: Ye phone mein log itna chipak kyun jaate hain? Beta: Kyunki charger chord chhota hota hai!"
+  },
+  {
+    "categories": ["family"],
+    "id": 15,
+    "content": "Mummy ne bola: Subah jaldi uthna! Main bola: Haan mummy, sapne mein milte hain!"
+  },
+  {
+    "categories": ["food", "desi"],
+    "id": 16,
+    "content": "Gol gappe wale bhaiya ka attitude toh Ambani jaisa hota hai!"
+  },
+  {
+    "categories": ["college", "hostel"],
+    "id": 17,
+    "content": "Hostel me 3 cheezein kaafi hain: Maggie, jugad, aur best friend ka bed!"
+  },
+  {
+    "categories": ["sibling", "family"],
+    "id": 18,
+    "content": "Behen ka phone chhoo liya — ab toh lagta hai property se bhi naam katwa degi!"
+  },
+  {
+    "categories": ["school", "funny"],
+    "id": 19,
+    "content": "Maths ke paper me sirf number line banayi — teacher ne bola, emotions bhi express kar liye!"
+  },
+  {
+    "categories": ["relationship", "funny"],
+    "id": 20,
+    "content": "Girlfriend ne poocha: Mein moti lag rahi hu kya? — Ab breakup ka time aa gaya tha!"
+  }, {
+    "categories": ["family", "desi"],
+    "id": 21,
+    "content": "Papa: TV chalu kaise karte hain? Beta: Pehle remote dhoondo, fir mood banao!"
+  },
+  {
+    "categories": ["school", "exam"],
+    "id": 22,
+    "content": "Exam me likha: 'Define stress' — Maine likha: 'Ye paper hi toh hai!'"
+  },
+  {
+    "categories": ["desi", "daily life"],
+    "id": 23,
+    "content": "Subah uth ke lagta hai alarm se zyada mummy ka chillana effective hai!"
+  },
+  {
+    "categories": ["college", "hostel"],
+    "id": 24,
+    "content": "Hostel ki chai: Paani me pyaar aur dust ka tadka!"
+  },
+  {
+    "categories": ["food", "desi"],
+    "id": 25,
+    "content": "Samosa mein aloo kam aur hawa zyada thi — lagta hai dieting version tha!"
+  },
+  {
+    "categories": ["friends", "funny"],
+    "id": 26,
+    "content": "Friend: Bhai paisa chahiye. Main: Dil bhi chahiye, milta kya hai?"
+  },
+  {
+    "categories": ["family", "kids"],
+    "id": 27,
+    "content": "Bachpan mein toothpaste kha liya, mummy ne kaha: Ab mooh band hi rakho!"
+  },
+  {
+    "categories": ["relationship"],
+    "id": 28,
+    "content": "Usne bola 'space chahiye' — toh maine WiFi ka password badal diya!"
+  },
+  {
+    "categories": ["office", "lazy"],
+    "id": 29,
+    "content": "Work from home mein sirf 'work' missing hai!"
+  },
+  {
+    "categories": ["school"],
+    "id": 30,
+    "content": "Teacher: Tum late kyun aaye? Student: Sir, neend se breakup hi nahi ho raha tha!"
+  },
+  {
+    "categories": ["technology", "funny"],
+    "id": 31,
+    "content": "Phone gira nahi ho jaise dil toot gaya ho!"
+  },
+  {
+    "categories": ["family"],
+    "id": 32,
+    "content": "Mummy: Kapde dhul gaye? Beta: Haan, barish ne dhul diye!"
+  },
+  {
+    "categories": ["desi", "travel"],
+    "id": 33,
+    "content": "Gaon ki bus mein seat mile na mile, bonding zaroor milti hai!"
+  },
+  {
+    "categories": ["school", "exam"],
+    "id": 34,
+    "content": "Exam me answer likhne gaya tha, poem ban ke aa gaya!"
+  },
+  {
+    "categories": ["family", "shopping"],
+    "id": 35,
+    "content": "Mummy: Ye 500 ka suit kitne ka diya? Shopkeeper: Aapke liye sirf emotional value!"
+  },
+  {
+    "categories": ["friends"],
+    "id": 36,
+    "content": "Friend: Party kab dega? Main: Jab EMI khatam ho jayegi!"
+  },
+  {
+    "categories": ["college"],
+    "id": 37,
+    "content": "Class bunk karne ka thrill alag hi level ka hota hai!"
+  },
+  {
+    "categories": ["family", "funny"],
+    "id": 38,
+    "content": "Dadi: Shaadi kab karega? Main: Dadi, pehle job milne do!"
+  },
+  {
+    "categories": ["desi", "daily life"],
+    "id": 39,
+    "content": "Kambal se bahar nikalna sabse bada struggle hota hai sardiyo me!"
+  },
+  {
+    "categories": ["relationship"],
+    "id": 40,
+    "content": "Usne bola: Tum badal gaye ho. Maine kaha: Arre AC on hai!"
+  },
+  {
+    "categories": ["family", "sibling"],
+    "id": 41,
+    "content": "Bhai: Remote de! Behen: Password bolo!"
+  },
+  {
+    "categories": ["school"],
+    "id": 42,
+    "content": "Teacher: Tumne homework kyun nahi kiya? Student: Kyunki meri zindagi hi pending hai!"
+  },
+  {
+    "categories": ["funny", "technology"],
+    "id": 43,
+    "content": "WiFi chala gaya — ab toh zindagi offline lagti hai!"
+  },
+  {
+    "categories": ["office"],
+    "id": 44,
+    "content": "Boss: Kaam kahan tak hua? Main: Sir, meeting chal rahi thi team ke saath... (team = YouTube)"
+  },
+  {
+    "categories": ["food", "desi"],
+    "id": 45,
+    "content": "Paneer butter masala me paneer dhoondhna Wheres Waldo jaisa feel deta hai!"
+  },
+  {
+    "categories": ["college", "funny"],
+    "id": 46,
+    "content": "Assignment toh copy paste hi hota hai, bas source alag hota hai!"
+  },
+  {
+    "categories": ["family"],
+    "id": 47,
+    "content": "Mummy kehti hai: Kha lo warna phone le lo!"
+  },
+  {
+    "categories": ["relationship"],
+    "id": 48,
+    "content": "Usne DP black kar di — matlab breakup confirmed!"
+  },
+  {
+    "categories": ["school", "exam"],
+    "id": 49,
+    "content": "Science paper me toh diagram se hi emotional support le liya!"
+  },
+  {
+    "categories": ["desi", "funny"],
+    "id": 50,
+    "content": "Desi parents ka WiFi band karne ka style: Router ki line hi kaat do!"
+  },{
+    "categories": ["family", "kids"],
+    "id": 51,
+    "content": "Bachpan me TV dekhte hue mummy aati thi aur kehti thi: Bas 5 minute aur — lekin wahi 5 minute kabhi khatam nahi hue!"
+  },
+  {
+    "categories": ["school", "exam"],
+    "id": 52,
+    "content": "Exam ka pehla sawaal hi aisa tha ki pen ne likhne se mana kar diya!"
+  },
+  {
+    "categories": ["desi", "daily life"],
+    "id": 53,
+    "content": "Desi mom: Light off kar ke so jao. Desi bachcha: Light off ho gayi, ab WhatsApp on!"
+  },
+  {
+    "categories": ["friends", "funny"],
+    "id": 54,
+    "content": "Friend: Chal movie dekhne? Main: Bhai, meri salary abhi recharge plan se zyada nahi hai!"
+  },
+  {
+    "categories": ["office"],
+    "id": 55,
+    "content": "Manager: Late kyun aaye ho? Employee: Sir, neend ka traffic jam tha!"
+  },
+  {
+    "categories": ["relationship", "funny"],
+    "id": 56,
+    "content": "Usne bola: Tum aur main perfect couple hain! — tabhi network chala gaya!"
+  },
+  {
+    "categories": ["family", "technology"],
+    "id": 57,
+    "content": "Papa: Mobile zyada mat chalaya karo. Beta: Thik hai, WhatsApp chhod ke thoda Facebook chalu karta hoon!"
+  },
+  {
+    "categories": ["school"],
+    "id": 58,
+    "content": "Teacher: Answer sheet blank kyun hai? Student: Silent exam tha sir, answer bhi silent hai!"
+  },
+  {
+    "categories": ["desi", "food"],
+    "id": 59,
+    "content": "Garam chai aur rainy season = pure Bollywood vibes!"
+  },
+  {
+    "categories": ["college"],
+    "id": 60,
+    "content": "Class cancel hone ki khushi uss time aati thi jab already bunk kar rakha hota!"
+  },
+  {
+    "categories": ["family"],
+    "id": 61,
+    "content": "Dadi ka phone ringtone abhi bhi ‘Jai Mata Di’ hai, aur volume full!"
+  },
+  {
+    "categories": ["friends"],
+    "id": 62,
+    "content": "Bhai ne kaha: Tera asli friend wahi hai jo bina maange Maggi me se ek chammach de de!"
+  },
+  {
+    "categories": ["office", "lazy"],
+    "id": 63,
+    "content": "Monday morning ka struggle Olympic level ka hota hai!"
+  },
+  {
+    "categories": ["relationship"],
+    "id": 64,
+    "content": "GF: Mujhe kuch alag chahiye... BF: Lo, WiFi ka password badal diya!"
+  },
+  {
+    "categories": ["school", "exam"],
+    "id": 65,
+    "content": "Science ke paper me likha: 'Water is life' — aur khatam!"
+  },
+  {
+    "categories": ["technology"],
+    "id": 66,
+    "content": "Phone charge ho raha ho ya nahi, fir bhi 4 baar check karte hain!"
+  },
+  {
+    "categories": ["family", "funny"],
+    "id": 67,
+    "content": "Mummy ne bola: Light off kar ke so jao. Maine kaha: Andhere me toh dreams bhi horror hote hain!"
+  },
+  {
+    "categories": ["desi", "daily life"],
+    "id": 68,
+    "content": "Desi ghar me remote ka permanent address: Takiyake neeche!"
+  },
+  {
+    "categories": ["college"],
+    "id": 69,
+    "content": "College attendance bhi crypto jaisi hoti hai — kabhi high, kabhi missing!"
+  },
+  {
+    "categories": ["family", "shopping"],
+    "id": 70,
+    "content": "Mummy shopping pe jaati hai sirf ek cheez lene — aur le aati hai market ki sale report!"
+  },
+  {
+    "categories": ["school", "teacher"],
+    "id": 71,
+    "content": "Teacher: Tumhe samajh aaya? Student: Samajh toh gaya, likh nahi paya!"
+  },
+  {
+    "categories": ["office", "work from home"],
+    "id": 72,
+    "content": "Zoom call me sirf shirt pehn ke baaki pyjama — asli professional touch!"
+  },
+  {
+    "categories": ["food"],
+    "id": 73,
+    "content": "Biryani me aloo daal diya? Arre yaar, ye toh insult hai!"
+  },
+  {
+    "categories": ["family", "kids"],
+    "id": 74,
+    "content": "Bachpan me Papa ke phone pe Snake game khelna hi luxury tha!"
+  },
+  {
+    "categories": ["relationship", "funny"],
+    "id": 75,
+    "content": "Usne kaha: Mujhe time nahi milta. Main bola: Calendar kharid le!"
+  },
+  {
+    "categories": ["desi", "funny"],
+    "id": 76,
+    "content": "Desi aunty: Beta kitne ka package mila? Beta: Aunty, shampoo ka ya job ka?"
+  },
+  {
+    "categories": ["school", "funny"],
+    "id": 77,
+    "content": "Exam me 'Explain Newton's Law' likhne ke bajaye maine likh diya 'Google it!'"
+  },
+  {
+    "categories": ["college"],
+    "id": 78,
+    "content": "College ki canteen mein chai ke sath gyaan bhi free milta hai!"
+  },
+  {
+    "categories": ["friends"],
+    "id": 79,
+    "content": "Friendship test: Charger maangne pe agar diya nahi, to dosti khatam!"
+  },
+  {
+    "categories": ["family"],
+    "id": 80,
+    "content": "Mummy: Khaana kyu nahi khaya? Beta: Kyunki sabzi me pyaaz ka dard tha!"
+  },
+  {
+    "categories": ["relationship"],
+    "id": 81,
+    "content": "Usne kaha: Tum badal gaye ho! Maine kaha: Kyunki ab load nahi leta!"
+  },
+  {
+    "categories": ["desi"],
+    "id": 82,
+    "content": "Desi train journey = chai, samosa, aur strangers se emotional bonding!"
+  },
+  {
+    "categories": ["school"],
+    "id": 83,
+    "content": "Class monitor banna matlab unpaid security guard banna!"
+  },
+  {
+    "categories": ["technology"],
+    "id": 84,
+    "content": "Battery 20% aayi nahi ki lagta hai duniya khatam ho gayi!"
+  },
+  {
+    "categories": ["office"],
+    "id": 85,
+    "content": "Office ki sabse important skill: Alt+Tab speed!"
+  },
+  {
+    "categories": ["funny"],
+    "id": 86,
+    "content": "Jab sab kaam khatam ho jaye, tab bhi mummy kahti hai — kuch kaam dhang se nahi karta!"
+  },
+  {
+    "categories": ["food"],
+    "id": 87,
+    "content": "Gol gappe me teekha mangwaya tha, ab aankhon se bhi pani aa raha hai!"
+  },
+  {
+    "categories": ["family"],
+    "id": 88,
+    "content": "Papa ka favourite word: Jab main tumhari umar ka tha..."
+  },
+  {
+    "categories": ["friends"],
+    "id": 89,
+    "content": "Friend: Chal bhaag le! Main: Kya kar liya? Friend: Kuch nahi, bas mann kar raha hai!"
+  },
+  {
+    "categories": ["relationship"],
+    "id": 90,
+    "content": "Breakup ke baad toh WhatsApp DP bhi attitude wali ho jati hai!"
+  },
+  {
+    "categories": ["school"],
+    "id": 91,
+    "content": "Report card aate hi TV band ho jaata tha!"
+  },
+  {
+    "categories": ["office"],
+    "id": 92,
+    "content": "Office lunch me sabse tasty cheez hoti hai — doosre ka khana!"
+  },
+  {
+    "categories": ["family"],
+    "id": 93,
+    "content": "Mummy: Chai garam hai, sambhal ke! Main: Arre mummy, dil thanda hai!"
+  },
+  {
+    "categories": ["college"],
+    "id": 94,
+    "content": "Engineering ka matlab: 4 saal ka stress + 1 saal ka scope!"
+  },
+  {
+    "categories": ["technology"],
+    "id": 95,
+    "content": "Auto correct ne zindagi ki sabse badi bewafai ki!"
+  },
+  {
+    "categories": ["funny"],
+    "id": 96,
+    "content": "Raat ko sote waqt socha: Kal se diet start karunga... subah se hi bhool gaya!"
+  },
+  {
+    "categories": ["desi", "daily life"],
+    "id": 97,
+    "content": "Desi ghar me TV remote zyada nahi, pyaar zyada lutaya jata hai!"
+  },
+  {
+    "categories": ["family"],
+    "id": 98,
+    "content": "Papa ki daant sun ke lagta hai ki duniya me sirf unhi ki rule chalti hai!"
+  },
+  {
+    "categories": ["friends"],
+    "id": 99,
+    "content": "Friendship ka asli test: Jab saath me paise na hon!"
+  },
+  {
+    "categories": ["relationship"],
+    "id": 100,
+    "content": "Usne bola: Tu meri zindagi me lighting hai! Main bola: Matlab bijli ka bill toh badh jayega!"
+  }
+]
+   
+
