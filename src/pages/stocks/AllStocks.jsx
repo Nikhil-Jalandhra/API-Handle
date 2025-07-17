@@ -1,9 +1,13 @@
 import { useEffect, useState } from 'react';
 import StockCard from '../../components/StockCard';
 import StockSkeleton from '../../components/StockSkeleton';
-import { Link } from 'react-router-dom';
+import Pagination from '../../components/Pagination';
+import usePaginationStore from '../../stateStore/paginationStore';
+import { useParams } from 'react-router-dom';
 
 function AllStocks() {
+
+  const { pageNo } = useParams();
 
   // for Api
   // const url = import.meta.env.VITE_API + "/public/stocks";
@@ -11,6 +15,8 @@ function AllStocks() {
   // for local
   const url = "/nse-stocks.json";
 
+  const perPageGroup = 12;
+  const { endPage, currentPage, setPageUser, setPage } = usePaginationStore();
   const [stocks, setStocks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState("");
@@ -48,6 +54,9 @@ function AllStocks() {
       }
       if (data) {
         setStocks(data);
+        setPage(pageNo);
+        setPageUser("stocks");
+        endPage(Math.ceil(data.length/perPageGroup));
       } else {
         setStocks([]);
       }
@@ -63,7 +72,7 @@ function AllStocks() {
 
   useEffect(() => {
     fetchStocks(url);
-  }, []);
+  }, [pageNo, currentPage]);
 
   useEffect(() => {
   if (query.length > 2 || query.length === 0) {
@@ -98,6 +107,8 @@ function AllStocks() {
           </p>
         )}
 
+        <Pagination/>
+
         {loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {Array.from({ length: 6 }).map((_, i) => (
@@ -106,13 +117,16 @@ function AllStocks() {
           </div>
         ) : stocks.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {stocks.map((stock) => (
+            {stocks.slice((currentPage - 1) * perPageGroup, currentPage * perPageGroup).map((stock) => (
               <StockCard key={stock.Symbol} stock={stock} />
             ))}
           </div>
         ) : (
           <p className="text-center text-gray-400 text-lg mt-10">No stocks found.</p>
         )}
+        
+        <Pagination/>
+
       </div>
     </div>
   );

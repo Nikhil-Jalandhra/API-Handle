@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
 const apiCategories = [
-  { name: "Users 👤🫂", path: "/user", from: "from-green-400", to: "to-green-500" },
+  { name: "Users 👤🫂", path: "/user/page/1", from: "from-green-400", to: "to-green-500" },
   { name: "Jokes 🤣😄", path: "/jokes", from: "from-green-500", to: "to-yellow-400" },
-  { name: "Products 🛒🕶️", path: "/products", from: "from-yellow-400", to: "to-orange-500" },
+  { name: "Products 🛒🕶️", path: "/products/page/1", from: "from-yellow-400", to: "to-orange-500" },
   { name: "Books 📚📖", path: "/books", from: "from-orange-500", to: "to-red-500" },
-  { name: "Stocks 🐂📈", path: "/stocks", from: "from-red-500", to: "to-red-600" },
+  { name: "Stocks 🐂📈", path: "/stocks/page/1", from: "from-red-500", to: "to-red-600" },
   { name: "Videos 🎥📺", path: "/videos", from: "from-red-600", to: "to-red-800" }
 ];
 

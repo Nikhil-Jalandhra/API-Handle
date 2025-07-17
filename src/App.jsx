@@ -13,12 +13,12 @@ export default function MainPage() {
         <Route path="/" element={<Home/>} />
 
         {/* User */}
-        <Route path="/user" element={<AllUsers/>} />
+        <Route path="/user/page/:pageNo" element={<AllUsers/>} />
         <Route path="/user/:id" element={<UserDetailPage/>} />
         <Route path="/user/random" element={<GetRandomUser/>} />
 
         {/* Products */}
-        <Route path="/products" element={<AllProducts/>} />
+        <Route path="/products/page/:pageNo" element={<AllProducts/>} />
         <Route path="/products/:id" element={<ProductDetail/>} />
         <Route path="/products/random" element={<GetRandomProduct/>} />
         
@@ -32,7 +32,7 @@ export default function MainPage() {
         <Route path="/books/random" element={<GetRandomBooks/>} />
 
         {/* Stockes */}
-        <Route path="/stocks" element={<AllStocks/>} />
+        <Route path="/stocks/page/:pageNo" element={<AllStocks/>} />
         <Route path="/stocks/:stockSymbol" element={<StockDetail/>} />
 
         {/* video */}

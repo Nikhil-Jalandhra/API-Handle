@@ -1,13 +1,18 @@
 import { useEffect, useState } from 'react';
+import Pagination from '../../components/Pagination';
 import ProductCard from '../../components/ProductCard';
 import SkeletonCard from '../../components/SkeletonCard';
-import { Link } from 'react-router-dom';
+import usePaginationStore from '../../stateStore/paginationStore';
+import { Link, useParams } from 'react-router-dom';
 
 export default function AllProducts() {
 
+  const { pageNo } = useParams();
+
+  const perPageGroup = 12;
+  const { endPage, currentPage, setPageUser, setPage } = usePaginationStore();
   const [prdctData, setPrdctData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [page, setPage] = useState(1);
   const [query, setQuery] = useState("");
 
   // for Api
@@ -59,6 +64,9 @@ export default function AllProducts() {
 
       if (data) {
         setPrdctData(queryData);
+        endPage(Math.ceil(queryData.length/perPageGroup));
+        setPage(pageNo);
+        setPageUser("products");
       } else {
         setPrdctData([]);
       }
@@ -72,7 +80,7 @@ export default function AllProducts() {
 
    useEffect(() => {
     fetchProduct();
-  }, []);
+  }, [pageNo, currentPage]);
 
   useEffect(() => {
   if (query.length > 2 || query.length === 0) {
@@ -81,7 +89,7 @@ export default function AllProducts() {
     }, 500);
     return () => clearTimeout(delayDebounce);
   }
-}, [query, page]);
+}, [query]);
 
   return (
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-6 px-4 sm:py-10">
@@ -109,6 +117,8 @@ export default function AllProducts() {
           </div>
         </div>
 
+        <Pagination pageData={[ perPageGroup ]} />
+
          {query.length > 2 && !loading && (
             <p className="text-sm text-gray-400 mb-4">Results for "<strong>{query}</strong>"</p>
         )}
@@ -134,7 +144,7 @@ export default function AllProducts() {
           // </div>
           // for Local
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
-            {prdctData.map((product, index) => index < 9 && (
+            {prdctData.slice((currentPage - 1) * perPageGroup, currentPage * perPageGroup).map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
@@ -145,6 +155,9 @@ export default function AllProducts() {
             No products found.
           </div>
         )}
+
+        <Pagination pageData={[ perPageGroup ]} />
+
       </div>
     </div>
 
